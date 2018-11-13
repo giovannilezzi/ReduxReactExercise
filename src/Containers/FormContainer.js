@@ -4,8 +4,8 @@ import FormComponent from "../Components/FormComponent";
 
 const mapStateToProps = (state) => {
     return {
-        name: state.ChangeValue.name,
-        surname: state.ChangeValue.surname
+        name: state.FormReducer.name,
+        surname: state.FormReducer.surname
     };
 };
 

@@ -8,10 +8,11 @@ const propTypes = {
     surname: PropTypes.string.isRequired,
     changeValueName: PropTypes.func.isRequired,
     changeValueSurname: PropTypes.func.isRequired,
-    buttonClicked: PropTypes.func.isRequired
+    buttonClicked: PropTypes.func.isRequired,
+    fetchPosts: PropTypes.func
 };
 
-const FormComponent = ({ name, surname, changeValueName, changeValueSurname,buttonClicked }) => (
+const FormComponent = ({ name, surname, changeValueName, changeValueSurname,buttonClicked}) => (
     <div>
         <div style={{ marginBottom: '5px' }}>Value: {name + surname}</div>
         <div>
@@ -31,6 +32,7 @@ const FormComponent = ({ name, surname, changeValueName, changeValueSurname,butt
                 />
             </label>
             <Button bsStyle="danger" name="Button" onClick={buttonClicked}>Button</Button>
+
         </div>
     </div>
 );

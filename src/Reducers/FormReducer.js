@@ -7,7 +7,8 @@ import App from "../Components/App";
 
 const initialState = {
     name: 'Initial value',
-    surname: 'Initial value'
+    surname: 'Initial value',
+    state: {}
 };
 
 const changeValueName = (state, action) => {
@@ -45,7 +46,7 @@ const FormReducer = (state = initialState, action) => {
             return changeValueSurname(state, action);
 
         case ActionTypes.BUTTON_CLICKED:
-            return buttonClicked(state, action)
+            return buttonClicked(state, action);
 
         default:
             return state;

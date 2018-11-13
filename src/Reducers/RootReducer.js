@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux';
-import ChangeValue from './FormReducer'
+
+import ChannelsReducer from './ChannelsReducer'
+import FormReducer from './FormReducer'
 
 const RootReducer = combineReducers({
-    ChangeValue
+    FormReducer,
+    ChannelsReducer
 });
 export default RootReducer;
