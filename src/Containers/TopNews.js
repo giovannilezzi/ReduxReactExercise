@@ -4,10 +4,8 @@ import  NewsItem  from '../Components/NewsItem';
 
 let TopNews = ({ channels, loading }) => {
     let topNews = "";
-    console.log("Canale " + channels)
 
     if (channels) {
-        console.log("if");
         topNews = channels.map((article, index) =>
             (
                 <div key={`${index}`} className="row">

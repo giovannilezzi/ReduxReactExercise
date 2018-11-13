@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { getChannel} from '../Actions'
+import * as action from '../Actions/AsyncAction'
 
 let Channel = ({ channelName, channelString, onClick, active }) => (
     <div  className=" col-lg-2 col-md-4 col-sm-6 ">
@@ -18,8 +18,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
     onClick: () => {
-        console.log('ciao');
-        dispatch(getChannel(ownProps.channelString));
+        dispatch(action.getChannel(ownProps.channelString));
     }
 })
 

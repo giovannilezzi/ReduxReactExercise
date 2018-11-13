@@ -1,8 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import ActionTypes from "../Actions/ActionTypes";
-import ReactDOM from "react-dom";
-import Provider from "react-redux/es/components/Provider";
-import store from "../Store/FormStore";
-import React from "react";
+import store from '../Store/AppStore'
 import App from "../Components/App";
 
 const initialState = {
@@ -25,6 +25,7 @@ const changeValueSurname = (state, action) => {
 
 const buttonClicked = (state, action) => {
     alert(state.name + " " + state.surname)
+
     ReactDOM.render(
         <Provider store={store}>
             <App />

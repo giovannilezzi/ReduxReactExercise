@@ -1,17 +1,18 @@
-import { SELECT_CHANNEL, REQUEST_POSTS, RECEIVE_POSTS } from '../Actions';
+import { SELECT_CHANNEL, REQUEST_POSTS, RECEIVE_POSTS } from '../Actions/FormAction';
+import ActionTypes from "../Actions/ActionTypes";
 
 const ChannelsReducer = (state = {}, action) => {
 
     switch (action.type) {
 
-        case SELECT_CHANNEL:
-            return { ...state, channel: action.channel };
+        case ActionTypes.SELECT_CHANNEL:
+            return { ...state, channel: action.payload.newValue };
 
-        case REQUEST_POSTS:
+        case ActionTypes.REQUEST_POSTS:
             return { ...state, loading: true };
 
-        case RECEIVE_POSTS:
-            return { ...state, json: action.json, loading: false };
+        case ActionTypes.RECEIVE_POSTS:
+            return { ...state, json: action.payload.newValue, loading: false };
 
         default:
             return state;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { fetchPosts } from '../Actions'
+import * as action from '../Actions/AsyncAction'
 
 let Button = ({ getPosts, channel }) => (
     <button
@@ -14,9 +14,19 @@ const mapStateToProps = (state) => ({
     channel: state.ChannelsReducer.channel
 })
 
+const mapDispatchToProps = (dispatch) => ({
+    getPosts: (channel) => {
+        dispatch(action.fetchPosts(channel));
+    }
+})
+
+
+/* in questa maniera prende il parametro channel in automatico
+
 const mapDispatchToProps = {
-    getPosts: fetchPosts
+    getPosts: action.fetchPosts
 }
+*/
 
 Button = connect(
     mapStateToProps,
