@@ -1,4 +1,3 @@
-import { SELECT_CHANNEL, REQUEST_POSTS, RECEIVE_POSTS } from '../Actions/FormAction';
 import ActionTypes from "../Actions/ActionTypes";
 
 const ChannelsReducer = (state = {}, action) => {

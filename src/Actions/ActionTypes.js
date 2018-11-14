@@ -6,5 +6,7 @@ export default keyMirror({
     BUTTON_CLICKED: null,
     SELECT_CHANNEL: null,
     REQUEST_POSTS: null,
-    RECEIVE_POSTS: null
+    RECEIVE_POSTS: null,
+    SAVE_SELECT_OPTION: null,
+    ADD_INPUT: null
 });
