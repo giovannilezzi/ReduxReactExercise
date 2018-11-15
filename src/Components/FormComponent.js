@@ -31,7 +31,9 @@ const FormComponent = ({ name, surname, changeValueName, changeValueSurname,butt
                     onChange={changeValueSurname}
                 />
             </label>
-            <Button bsStyle="danger" name="Button" onClick={buttonClicked}>Button</Button>
+            <Button id ="app" bsStyle="danger" name="Button" onClick={buttonClicked}>Go to APP</Button>
+
+            <Button id="imm" bsStyle="info" name="Button" onClick={buttonClicked}> Immagine </Button>
 
         </div>
     </div>

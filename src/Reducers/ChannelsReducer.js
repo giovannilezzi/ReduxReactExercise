@@ -1,10 +1,12 @@
 import ActionTypes from "../Actions/ActionTypes";
+import hystory from '../hystory'
 
 const ChannelsReducer = (state = {}, action) => {
 
     switch (action.type) {
 
         case ActionTypes.SELECT_CHANNEL:
+            hystory.push('/' + action.payload.newValue)
             return { ...state, channel: action.payload.newValue };
 
         case ActionTypes.REQUEST_POSTS:

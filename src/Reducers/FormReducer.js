@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import ActionTypes from "../Actions/ActionTypes";
 import store from '../Store/AppStore'
 import App from "../Components/App";
+import hystory from '../hystory'
 
 const initialState = {
     name: 'Initial value',
@@ -25,13 +26,17 @@ const changeValueSurname = (state, action) => {
 */
 
 const buttonClicked = (state, action) => {
+
+
+    hystory.push('/APP')
+    /*
     alert(state.name + " " + state.surname)
     ReactDOM.render(
         <Provider store={store}>
             <App />
         </Provider>,
         document.getElementById('root'),
-    );
+    );*/
     return {state, value: action.payload.newValue}
 }
 

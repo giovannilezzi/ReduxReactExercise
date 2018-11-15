@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f7c0a2-5fdb-4bf8-b0d0-65fc5bc214c2" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/Actions/SurveyAction.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Survey/SurveyComponent.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Survey/css/main.css" afterDir="false" />
@@ -72,6 +73,15 @@
       <change beforePath="$PROJECT_DIR$/src/Reducers/ChannelsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ChannelsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reducers/FormReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/FormReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reducers/RootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/RootReducer.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/hystory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/FormReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/FormReducer.js" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -129,48 +139,85 @@
     <session id="-1070146128">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< Updated upstream
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="5" />
+=======
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
+<<<<<<< Updated upstream
           <entry key="ESLintLanguageService" value="5" />
           <entry key="TypeScriptServerServiceImpl" value="2" />
+=======
+          <entry key="ESLintLanguageService" value="4" />
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< Updated upstream
           <entry key="js" value="3201" />
           <entry key="txt" value="1" />
+=======
+          <entry key="js" value="2272" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< Updated upstream
           <entry key="JavaScript" value="3201" />
           <entry key="PLAIN_TEXT" value="1" />
+=======
+          <entry key="JavaScript" value="2271" />
+          <entry key="RegExp" value="1" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< Updated upstream
           <entry key="css" value="3" />
           <entry key="html" value="4" />
           <entry key="js" value="145" />
           <entry key="svg" value="1" />
           <entry key="ts" value="3" />
+=======
+          <entry key="css" value="2" />
+          <entry key="html" value="2" />
+          <entry key="js" value="123" />
+          <entry key="svg" value="2" />
+          <entry key="ts" value="2" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< Updated upstream
           <entry key="CSS" value="3" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="145" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript" value="3" />
+=======
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="123" />
+          <entry key="SVG" value="2" />
+          <entry key="TypeScript" value="2" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
     </session>
@@ -178,10 +225,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/Components/Survey/SurveyComponent.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Reducers/FormReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -189,11 +261,64 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Actions/ActionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/ChannelsField.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/FormComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hystory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -224,7 +349,6 @@
         <option value="$PROJECT_DIR$/src/Containers/ButtonContainer.js" />
         <option value="$PROJECT_DIR$/src/Components/ButtonComponent.js" />
         <option value="$PROJECT_DIR$/src/Css/FormCss.css" />
-        <option value="$PROJECT_DIR$/src/Components/App.js" />
         <option value="$PROJECT_DIR$/src/Components/ChannelsField.js" />
         <option value="$PROJECT_DIR$/src/Css/styles.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -233,7 +357,11 @@
         <option value="$PROJECT_DIR$/src/Containers/FormContainer.js" />
         <option value="$PROJECT_DIR$/src/Components/FormComponent.js" />
         <option value="$PROJECT_DIR$/src/Store/FormStore.js" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/Components/Home.js" />
+=======
+        <option value="$PROJECT_DIR$/src/Reducers/RootReducer.js" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/src/Components/NewsItem.js" />
         <option value="$PROJECT_DIR$/src/Actions/index.js" />
         <option value="$PROJECT_DIR$/src/Containers/Channel.js" />
@@ -243,6 +371,7 @@
         <option value="$PROJECT_DIR$/src/Store/AppSotre.js" />
         <option value="$PROJECT_DIR$/src/Store/AppStore.js" />
         <option value="$PROJECT_DIR$/src/Reducers/ChannelsReducer.js" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/Model.js" />
         <option value="$PROJECT_DIR$/src/Model/User.js" />
         <option value="$PROJECT_DIR$/src/Components/SurveyForm/surveyValidation.js" />
@@ -257,6 +386,16 @@
         <option value="$PROJECT_DIR$/src/Containers/SurveyContainer.js" />
         <option value="$PROJECT_DIR$/src/Reducers/RootReducer.js" />
         <option value="$PROJECT_DIR$/src/Components/Survey/SurveyComponent.js" />
+=======
+        <option value="$PROJECT_DIR$/src/Components/AppRouter.js" />
+        <option value="$PROJECT_DIR$/src/Components/App.js" />
+        <option value="$PROJECT_DIR$/src/Components/Home.js" />
+        <option value="$PROJECT_DIR$/src/Components/Router.js" />
+        <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/src/hystory.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Reducers/FormReducer.js" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -307,6 +446,12 @@
               <item name="ReduxReactExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReduxReactExercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReduxReactExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReduxReactExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,18 +459,21 @@
               <item name="ReduxReactExercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Containers" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
             </path>
             <path>
               <item name="ReduxReactExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReduxReactExercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Reducers" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
             </path>
             <path>
               <item name="ReduxReactExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReduxReactExercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="Reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,7 +483,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ContactFrom_v4" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/eslint" />
+>>>>>>> Stashed changes
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -386,9 +538,14 @@
       <workItem from="1541759241505" duration="16039000" />
       <workItem from="1542098044318" duration="11751000" />
       <workItem from="1542119294588" duration="2559000" />
+<<<<<<< Updated upstream
       <workItem from="1542123283796" duration="2558000" />
       <workItem from="1542183537636" duration="54000" />
       <workItem from="1542183725884" duration="17769000" />
+=======
+      <workItem from="1542123283796" duration="597000" />
+      <workItem from="1542209821884" duration="6887000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1542124021981</created>
@@ -401,17 +558,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="50730000" />
+=======
+    <option name="totallyTimeSpent" value="37833000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
+<<<<<<< Updated upstream
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.14957717" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49966952" visible="true" weight="0.34559643" />
+=======
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.14910433" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49966952" visible="true" weight="0.31464174" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50033045" side_tool="true" weight="0.26203966" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -434,14 +601,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< Updated upstream
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
+<<<<<<< Updated upstream
           <url>file://$PROJECT_DIR$/src/Components/Survey/SurveyComponent.js</url>
           <line>94</line>
           <properties lambdaOrdinal="-1" />
@@ -453,6 +624,12 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+=======
+          <url>file://$PROJECT_DIR$/src/Reducers/FormReducer.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+>>>>>>> Stashed changes
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -502,6 +679,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Containers/Channel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -521,6 +699,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Actions/AsyncAction.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Components/NewsItem.js">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -548,6 +729,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Model.js" />
     <entry file="file://$PROJECT_DIR$/src/Model/User.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -569,6 +751,15 @@
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Store/FormStore.js" />
+    <entry file="file://$PROJECT_DIR$/src/Reducers/ChannelsReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -658,16 +849,24 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Containers/SurveyContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Components/AppRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Reducers/SurveyReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -679,12 +878,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Components/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="35" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Actions/SurveyAction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -699,6 +905,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+=======
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router/es/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/es/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hystory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Actions/ActionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ChannelsField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/FormComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reducers/FormReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
