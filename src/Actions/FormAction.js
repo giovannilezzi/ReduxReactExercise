@@ -26,3 +26,12 @@ export const buttonClicked = (event) => {
         }
     }
 };
+
+export const buttonClickedTopics = (event) => {
+    return {
+        type: ActionTypes.TOPICS_CLICKED,
+        payload: {
+            newValue: event.target.value
+        }
+    }
+};

@@ -40,6 +40,12 @@ const buttonClicked = (state, action) => {
     return {state, value: action.payload.newValue}
 }
 
+const buttonClickedTopics = (state, action) => {
+    hystory.push('/Topics')
+
+    return {state, value: action.payload.newValue}
+}
+
 const FormReducer = (state = initialState, action) => {
     switch (action.type) {
         case ActionTypes.CHANGE_VALUE_NAME:
@@ -50,6 +56,9 @@ const FormReducer = (state = initialState, action) => {
 
         case ActionTypes.BUTTON_CLICKED:
             return buttonClicked(state, action);
+
+        case ActionTypes.TOPICS_CLICKED:
+            return buttonClickedTopics(state, action);
 
         default:
             return state;

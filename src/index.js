@@ -4,10 +4,11 @@ import { Provider } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './Components/App';
 import Home from "./Components/Home";
+import Topics from './Components/Topics'
 
 
 import './Css/styles.css'
-import {Router, Route  } from 'react-router-dom';
+import {Router, Route, Link } from 'react-router-dom';
 
 import store from './Store/AppStore'
 import SurveyContainer from "./Containers/SurveyContainer";
@@ -19,12 +20,15 @@ ReactDOM.render(
 
         <Router history={history}>
             <div>
-                <Route exact path="/" component={Home} />
-                <Route path="/APP" component={SurveyContainer} />
 
+                <Route exact path="/" component={Home} />
+                <Route  path="/APP" component={SurveyContainer} />
+                <Route  path="/topics" component={Topics} />
             </div>
         </Router>
 
     </Provider>,
     document.getElementById('root'),
 );
+
+

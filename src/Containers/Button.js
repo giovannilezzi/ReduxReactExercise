@@ -1,6 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import * as action from '../Actions/AsyncAction'
+import hystory from "../hystory";
+import ActionTypes from "../Actions/ActionTypes";
 
 let Button = ({ getPosts, channel }) => (
     <button
@@ -8,6 +10,7 @@ let Button = ({ getPosts, channel }) => (
         className="btn btn-primary btn-lg btn-block" >
         Receive Info
     </button>
+
 );
 
 const mapStateToProps = (state) => ({
@@ -17,6 +20,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
     getPosts: (channel) => {
         dispatch(action.fetchPosts(channel));
+       // hystory.push('/'+channel)
     }
 })
 

@@ -6,7 +6,9 @@ const ChannelsReducer = (state = {}, action) => {
     switch (action.type) {
 
         case ActionTypes.SELECT_CHANNEL:
-            hystory.push('/' + action.payload.newValue)
+
+
+         //   window.location.reload()
             return { ...state, channel: action.payload.newValue };
 
         case ActionTypes.REQUEST_POSTS:

@@ -20,6 +20,9 @@ const mapDispatchToProps = (dispatch) => {
         buttonClicked: (event) => {
             dispatch(actions.buttonClicked(event))
         },
+        buttonClickedTopics: (event) => {
+            dispatch(actions.buttonClickedTopics(event))
+        },
     };
 };
 
