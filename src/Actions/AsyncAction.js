@@ -3,7 +3,7 @@ import ActionTypes from "./ActionTypes";
 const MY_API_KEY = 'c39a26d9c12f48dba2a5c00e35684ecc';
 
 
-export const getChannel = channel => ({
+export const getChannel = (channel) => ({
     type: ActionTypes.SELECT_CHANNEL,
     payload: {
         newValue: channel

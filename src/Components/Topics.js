@@ -25,4 +25,4 @@ const Topics = ({ match }) => (
     </div>
 );
 
-export default Topics ;
+export default Topics

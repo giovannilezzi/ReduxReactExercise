@@ -2,7 +2,6 @@ import React from 'react'
 import ChannelsField from './ChannelsField'
 import Button from '../Containers/Button'
 import TopNews from '../Containers/TopNews'
-
 import FormContainer from '../Containers/FormContainer'
 
 const Home = () => (
@@ -14,4 +13,4 @@ const Home = () => (
     </div>
 )
 
-export default Home;
+export default Home

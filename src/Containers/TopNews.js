@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import  NewsItem  from '../Components/NewsItem';
+import  NewsItem  from '../Components/NewsItem'
 
 let TopNews = ({ channels, loading }) => {
     let topNews = "";
@@ -35,5 +35,5 @@ TopNews = connect(
     null
 )(TopNews)
 
-export default TopNews;
+export default TopNews
 

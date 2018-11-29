@@ -27,4 +27,4 @@ Channel = connect(
     mapDispatchToProps
 )(Channel)
 
-export default Channel;
+export default Channel

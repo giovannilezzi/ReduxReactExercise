@@ -6,4 +6,4 @@ const Topic = ({ match }) => (
     </div>
 );
 
-export default Topic ;
+export default Topic

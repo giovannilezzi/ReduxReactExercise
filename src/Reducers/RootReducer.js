@@ -6,6 +6,6 @@ import SurveyReducer from './SurveyReducer'
 const RootReducer = combineReducers({
     FormReducer,
     ChannelsReducer,
-    SurveyReducer
+    SurveyReducer,
 });
-export default RootReducer;
+export default RootReducer

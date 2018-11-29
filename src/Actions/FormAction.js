@@ -1,4 +1,5 @@
 import ActionTypes from './ActionTypes';
+import history from '../history'
 
 export const changeValueName = (event) => {
     return {
@@ -18,12 +19,9 @@ export const changeValueSurname = (event) => {
     };
 };
 
-export const buttonClicked = (event) => {
+export const buttonClicked = () => {
     return {
         type: ActionTypes.BUTTON_CLICKED,
-        payload: {
-            newValue: event.target.value
-        }
     }
 };
 

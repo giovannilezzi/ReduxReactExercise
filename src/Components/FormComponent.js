@@ -1,45 +1,48 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap';
+import history from "../history";
 
+class FormComponent extends React.Component{
 
-const propTypes = {
-    name: PropTypes.string.isRequired,
-    surname: PropTypes.string.isRequired,
-    changeValueName: PropTypes.func.isRequired,
-    changeValueSurname: PropTypes.func.isRequired,
-    buttonClicked: PropTypes.func.isRequired,
-    buttonClickedTopics: PropTypes.func.isRequired,
-    fetchPosts: PropTypes.func
-};
+    constructor(props) {
+        super(props);
+    }
 
-const FormComponent = ({ name, surname, changeValueName, changeValueSurname,buttonClicked, buttonClickedTopics}) => (
-    <div>
-        <div style={{ marginBottom: '5px' }}>Value: {name + surname}</div>
+    getProps() {
+        console.log(this.props)
+        return this.props
+    }
+
+    render() {
+        return (
         <div>
-            <label>
-                Change me:
-                <input
-                    type="text"
-                    name="form"
-                    value={name}
-                    onChange={changeValueName}
-                />
-                <input
-                    type="text"
-                    name="form"
-                    value={surname}
-                    onChange={changeValueSurname}
-                />
-            </label>
-            <Button id ="app" bsStyle="danger" name="Button" onClick={buttonClicked}>Go to APP</Button>
+            <div style={{ marginBottom: '5px' }}>Value: {this.props.name + " " +this.props.surname}</div>
+            <div>
+                <label>
+                    Change me:
+                    <input
+                        type="text"
+                        name="form"
+                        value={this.props.name}
+                        onChange={this.props.changeValueName}
+                    />
+                    <input
+                        type="text"
+                        name="form"
+                        value={this.props.surname}
+                        onChange={this.props.changeValueSurname}
+                    />
+                </label>
+                <Button id ="app" bsStyle="danger" name="Button" onClick={this.props.buttonClicked}>Go to APP</Button>
 
-            <Button id="imm" bsStyle="info" name="Button" onClick={buttonClickedTopics}> Go to Topics </Button>
+                <Button id="imm" bsStyle="info" name="Button" onClick={this.props.buttonClickedTopics}> Go to Topics </Button>
 
+                <Button id="imm" bsStyle="info" name="Button" onClick={() => { history.push('/APP') }}> Prova </Button>
+
+            </div>
         </div>
-    </div>
-);
-
-FormComponent.propTypes = propTypes;
+        ) ;
+    }
+}
 
 export default FormComponent;

@@ -1,14 +1,11 @@
 import ActionTypes from "../Actions/ActionTypes";
-import hystory from '../hystory'
 
 const ChannelsReducer = (state = {}, action) => {
 
     switch (action.type) {
 
         case ActionTypes.SELECT_CHANNEL:
-
-
-         //   window.location.reload()
+            //   window.location.reload()
             return { ...state, channel: action.payload.newValue };
 
         case ActionTypes.REQUEST_POSTS:
@@ -20,6 +17,6 @@ const ChannelsReducer = (state = {}, action) => {
         default:
             return state;
     }
-};
+}
 
-export default ChannelsReducer;
+export default ChannelsReducer

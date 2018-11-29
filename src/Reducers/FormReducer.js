@@ -1,17 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
 import ActionTypes from "../Actions/ActionTypes";
-import store from '../Store/AppStore'
-import App from "../Components/App";
-import hystory from '../hystory'
 
 const initialState = {
     name: 'Initial value',
-    surname: 'Initial value',
+    surname: 'Initial value'
 };
 
-/*
+
 const changeValueName = (state, action) => {
     return Object.assign({}, state, {
         name: action.payload.newValue
@@ -23,31 +18,20 @@ const changeValueSurname = (state, action) => {
         surname: action.payload.newValue
     });
 };
-*/
-
-const buttonClicked = (state, action) => {
 
 
-    hystory.push('/APP')
-    /*
+const buttonClicked = (state) => {
     alert(state.name + " " + state.surname)
-    ReactDOM.render(
-        <Provider store={store}>
-            <App />
-        </Provider>,
-        document.getElementById('root'),
-    );*/
-    return {state, value: action.payload.newValue}
+    return {...state}
 }
 
 const buttonClickedTopics = (state, action) => {
-    hystory.push('/Topics')
-
     return {state, value: action.payload.newValue}
 }
 
 const FormReducer = (state = initialState, action) => {
     switch (action.type) {
+
         case ActionTypes.CHANGE_VALUE_NAME:
             return { ...state, name: action.payload.newValue};
 
@@ -55,7 +39,7 @@ const FormReducer = (state = initialState, action) => {
             return { ...state, surname: action.payload.newValue};;
 
         case ActionTypes.BUTTON_CLICKED:
-            return buttonClicked(state, action);
+            return buttonClicked(state)
 
         case ActionTypes.TOPICS_CLICKED:
             return buttonClickedTopics(state, action);
@@ -63,6 +47,6 @@ const FormReducer = (state = initialState, action) => {
         default:
             return state;
     }
-};
+}
 
-export default FormReducer;
+export default FormReducer

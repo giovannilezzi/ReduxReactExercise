@@ -7,3 +7,9 @@ export function saveSelectValue(event) {
             newValue: event.target.value
         }}
 }
+
+export function onSubmit() {
+    return {
+        type: ActionTypes.SAVE_SELECT_OPTION
+    }
+}

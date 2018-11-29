@@ -13,5 +13,5 @@ const ChannelsField = () => (
     </div>
 );
 
-export default ChannelsField;
+export default ChannelsField
 

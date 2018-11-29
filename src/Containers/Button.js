@@ -1,8 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import * as action from '../Actions/AsyncAction'
-import hystory from "../hystory";
-import ActionTypes from "../Actions/ActionTypes";
+
 
 let Button = ({ getPosts, channel }) => (
     <button
@@ -37,4 +36,4 @@ Button = connect(
     mapDispatchToProps
 )(Button)
 
-export default Button;
+export default Button

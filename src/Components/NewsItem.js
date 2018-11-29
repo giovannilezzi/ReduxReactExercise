@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const NewsItem = ({ article }) => (
     <article >
@@ -11,6 +11,6 @@ const NewsItem = ({ article }) => (
     </article>
 );
 
-export default NewsItem ;
+export default NewsItem
 
 

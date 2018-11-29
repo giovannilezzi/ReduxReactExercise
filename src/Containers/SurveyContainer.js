@@ -12,6 +12,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
+
         changeValueName: (event) => {
             dispatch(actionsForm.changeValueName(event));
         },
@@ -19,6 +20,11 @@ const mapDispatchToProps = (dispatch) => {
         saveSelectValue: (event) => {
             dispatch(actionsSurvey.saveSelectValue(event));
         },
+
+        onSubmit:(event) => {
+            dispatch(actionsSurvey.onSubmit())
+        }
+
     };
 };
 
@@ -27,4 +33,5 @@ const SurveyContainer = connect(
     mapDispatchToProps,
 )(SurveyComponent);
 
-export default SurveyContainer;
+
+export default SurveyContainer

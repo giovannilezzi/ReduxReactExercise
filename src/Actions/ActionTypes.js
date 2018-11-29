@@ -9,5 +9,6 @@ export default keyMirror({
     REQUEST_POSTS: null,
     RECEIVE_POSTS: null,
     SAVE_SELECT_OPTION: null,
-    ADD_INPUT: null
-});
+    ADD_INPUT: null,
+    ON_SUBMIT: null
+})
