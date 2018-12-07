@@ -10,5 +10,9 @@ export default keyMirror({
     RECEIVE_POSTS: null,
     SAVE_SELECT_OPTION: null,
     ADD_INPUT: null,
-    ON_SUBMIT: null
+    ON_SUBMIT: null,
+    ASYNC_CALL: null,
+    RECEIVE_RESPONSE:null,
+    RECEIVE_BLOGS: null,
+    FILE: null
 })
