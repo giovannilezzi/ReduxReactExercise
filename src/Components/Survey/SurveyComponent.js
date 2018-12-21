@@ -1,9 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './css/main.css'
 import './css/util.css'
-import {Button} from "react-bootstrap";
-import history from "../../history";
+
 
 /*
 import './images/icons/favicon.ico'

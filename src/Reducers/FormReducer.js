@@ -1,4 +1,3 @@
-import React from 'react';
 import ActionTypes from "../Actions/ActionTypes";
 
 const initialState = {
@@ -7,17 +6,21 @@ const initialState = {
 };
 
 
+/*
 const changeValueName = (state, action) => {
     return Object.assign({}, state, {
         name: action.payload.newValue
     });
 };
+*/
 
+/*
 const changeValueSurname = (state, action) => {
     return Object.assign({}, state, {
         surname: action.payload.newValue
     });
 };
+*/
 
 
 const buttonClicked = (state) => {

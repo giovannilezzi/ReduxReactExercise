@@ -1,5 +1,4 @@
 import ActionTypes from './ActionTypes';
-import history from '../history'
 
 export const changeValueName = (event) => {
     return {

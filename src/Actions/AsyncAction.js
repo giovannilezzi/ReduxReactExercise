@@ -16,7 +16,7 @@ export const requestPosts = () => ({
 });
 
 export const receivedPosts = json => ({
-    type: ActionTypes.RECEIVE_POSTS,
+    type: ActionTypes.RECEIVED_POSTS,
     payload: {
         newValue: json.articles
     },

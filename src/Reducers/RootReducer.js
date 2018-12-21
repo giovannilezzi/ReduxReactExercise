@@ -5,6 +5,8 @@ import SurveyReducer from './SurveyReducer'
 import AsyncReducer from './AsyncReducer'
 import BlogReducer from './BlogReducer'
 import MediaRepoReducer from './MediaRepoReducer'
+import ImagesReducer from './ImagesReducer'
+
 
 const RootReducer = combineReducers({
     FormReducer,
@@ -12,6 +14,7 @@ const RootReducer = combineReducers({
     SurveyReducer,
     AsyncReducer,
     BlogReducer,
-    MediaRepoReducer
+    MediaRepoReducer,
+    ImagesReducer
 });
 export default RootReducer

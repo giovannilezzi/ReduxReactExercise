@@ -19,17 +19,8 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
     getPosts: (channel) => {
         dispatch(action.fetchPosts(channel));
-       // hystory.push('/'+channel)
     }
 })
-
-
-/* in questa maniera prende il parametro channel in automatico
-
-const mapDispatchToProps = {
-    getPosts: action.fetchPosts
-}
-*/
 
 Button = connect(
     mapStateToProps,

@@ -1,17 +1,17 @@
 import ActionTypes from "./ActionTypes";
 import axios from "axios";
-import history from "../history";
+import history from "../../../ReduxReactExercise/src/history";
 
 
 export const receivedResponse = (obj) => ({
-    type: ActionTypes.RECEIVE_RESPONSE,
+    type: ActionTypes.RECEIVED_RESPONSE,
     payload: {
         newValue: obj
     },
 });
 
 export function asyncCall(requestBody) {
-    var url = 'http://localhost:3001/blog'
+    var url = 'http://localhost:3002/saveBlog'
     return function (dispatch) {
         axios.post(url, JSON.stringify(requestBody))
             .then((result) => {
@@ -26,16 +26,15 @@ export function asyncCall(requestBody) {
     };
 }
 
-export const receivedBlogs = (obj) => (
-    {
-    type: ActionTypes.RECEIVE_BLOGS,
+export const receivedBlogs = (obj) => ({
+    type: ActionTypes.RECEIVED_BLOGS,
     payload: {
         newValue: obj
     },
 });
 
 export function asyncCallAllBlogs() {
-    var url = 'http://localhost:3001/getBlog'
+    var url = 'http://localhost:3002/getBlog'
     return function (dispatch) {
         axios.get(url)
             .then((result) => {

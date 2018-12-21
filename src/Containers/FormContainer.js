@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
 import * as actions from '../Actions/FormAction';
-import FormComponent from "../Components/FormComponent";
+import * as actionsBlog from '../Actions/BlogAction';
+
+import FormComponent from "../../../ReduxReactExercise/src/Components/FormComponent";
 
 const mapStateToProps = (state) => {
     return {
@@ -23,6 +25,9 @@ const mapDispatchToProps = (dispatch) => {
         buttonClickedTopics: (event) => {
             dispatch(actions.buttonClickedTopics(event))
         },
+        asyncCall: (requestBody) => {
+            dispatch(actionsBlog.asyncCall(requestBody))
+        }
     }
 }
 

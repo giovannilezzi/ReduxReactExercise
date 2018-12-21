@@ -1,46 +1,17 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { connect } from 'react-redux';
 import history from "../history";
-import * as actions from '../Actions/BlogAction'
 
 
 class FormComponent extends React.Component{
 
-    constructor(props) {
-        super(props);
-    }
-
-    /*
-    handleSubmit = (e) => {
-        e.preventDefault();
-        const title = this.getTitle.value;
-        const message = this.getMessage.value;
-        const data = {
-            id: new Date(),
-            title,
-            message,
-            editing: false
-        }
-        console.log(data)
-        this.props.dispatch(
-            actions.handleSubmit(data)
-        )
-        this.getTitle.value = '';
-        this.getMessage.value = '';
-    }*/
-    // per forza così..Se faccio call(e){...} da errore
     call = (e) => {
         e.preventDefault();
-        //var url = 'http://localhost:3001/blog'
         const requestBody = {
-            Id: 1,
-            Name: this.props.name,
+            Name: this.getTitle.value,
             Surname: this.getMessage.value
         }
-        this.props.dispatch(
-            actions.asyncCall(requestBody)
-        )
+        this.props.asyncCall(requestBody)
     }
 
     render() {
@@ -70,6 +41,9 @@ class FormComponent extends React.Component{
 
                 <Button id="imm" bsStyle="info" name="Button" onClick={() => { history.push('/APP') }}> Prova </Button>
             </div>
+            <div className="navbar">
+                <h2 className="center ">Post It</h2>
+            </div>
             <div className="post-container">
                 <h1 className="post_heading">Create Post</h1>
                 <form className="form" onSubmit={this.call} >
@@ -86,5 +60,5 @@ class FormComponent extends React.Component{
     }
 }
 
-export default connect() (FormComponent);
+export default FormComponent;
 

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import * as actions from '../Actions/BlogAction';
-import ListBlog from "../Components/ListBlog";
+import ListBlog from "../../../ReduxReactExercise/src/Components/ListBlog";
 
 const mapStateToProps = (state) => {
     return {

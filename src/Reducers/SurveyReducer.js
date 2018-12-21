@@ -1,5 +1,4 @@
 import ActionTypes from "../Actions/ActionTypes";
-import {state} from "./FormReducer";
 
 const initialState = {
     selectedValue: 'Please select',

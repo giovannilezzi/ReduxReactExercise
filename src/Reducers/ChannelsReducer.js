@@ -11,7 +11,7 @@ const ChannelsReducer = (state = {}, action) => {
         case ActionTypes.REQUEST_POSTS:
             return { ...state, loading: true };
 
-        case ActionTypes.RECEIVE_POSTS:
+        case ActionTypes.RECEIVED_POSTS:
             return { ...state, json: action.payload.newValue, loading: false };
 
         default:

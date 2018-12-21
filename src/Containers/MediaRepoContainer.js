@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
 import * as actions from '../Actions/MediaRepoAction';
-import MediaRepo from "../Components/MediaRepo";
+import MediaRepo from "../../../ReduxReactExercise/src/Components/MediaRepo";
 
 const mapStateToProps = (state) => {
     return{
-        files: state.MediaRepoReducer.files
+        files: state.MediaRepoReducer.files,
     }
 };
 
